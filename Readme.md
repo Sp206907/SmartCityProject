@@ -44,9 +44,6 @@ SmartCityProject/
 ├── lib/ # org.json library
 └── out/ # compiled output
 
-yaml
-Копировать код
-
 ---
 
 ## ⚙️ How to Run
@@ -58,7 +55,6 @@ javac -d out $(find src -name "*.java")
 java -classpath out main.java.Main
 ▶ Run All Datasets
 bash
-Копировать код
 javac -d out -cp "lib/json-20230227.jar" $(find src -name "*.java")
 java -classpath "out:lib/json-20230227.jar" main.java.DatasetTester
 ✅ Notes:
