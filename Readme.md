@@ -128,7 +128,6 @@ Large	3	20–50	Performance and timing tests
 
 📂 Example JSON Structure
 json
-Копировать код
 {
   "directed": true,
   "n": 8,
@@ -158,7 +157,6 @@ large3.json	45	70	Dense	Mixed	45
 
 📈 Example Output
 markdown
-Копировать код
 === Metrics for TarjanSCC ===
 Operations: 16
 Time (ns): 159600
